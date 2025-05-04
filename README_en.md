@@ -62,7 +62,16 @@ Madrid       4          4          52.91 ms ⚠️
 
 ### 🌍 Supported Cities
 
-Amsterdam, Frankfurt, London, Madrid, Paris, Stockholm, Vienna, Warsaw, Helsinki  
+- Amsterdam 🇳🇱
+- Frankfurt 🇩🇪
+- London 🇬🇧
+- Madrid 🇪🇸
+- Paris 🇫🇷
+- Stockholm 🇸🇪
+- Vienna 🇦🇹
+- Warsaw 🇵🇱
+- Helsinki 🇫🇮
+
 _(automatically updated from Steam API)_
 
 ---
