@@ -1,12 +1,12 @@
 ## 🇬🇧 English Version
 
-This script helps quickly test latency and traceroutes to various **Steam POP servers** in **European cities**. It's ideal for gamers, network engineers, and anyone wanting to measure connection quality to the Steam infrastructure.
+This script helps quickly test latency and traceroutes to various **Steam servers** in **European cities**. It's ideal for gamers, network engineers, and anyone wanting to measure connection quality to the Steam infrastructure.
 
 ---
 
 ### 🚀 Features
 
-- 📡 **Ping all EU POPs** — automatically tests all European Steam nodes.
+- 📡 **Ping all EU servers** — automatically tests all European Steam nodes.
 - 🏙️ **Choose a city** — manually select a city to view detailed latency.
 - 🔍 **Traceroute with Geo** — view all hops to a target server with DNS, location and latency per hop.
 - 🌐 **Real-time Steam API data** — server IPs are fetched dynamically.
