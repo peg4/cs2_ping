@@ -29,7 +29,7 @@ sudo apt install jq curl dnsutils bc traceroute -y
 1. Скачайте скрипт:
 
 ```bash
-git clone https://github.com/your-username/steam-pop-pinger.git
+git clone https://github.com/peg4/steam_ping.git
 cd steam-pop-pinger
 ```
 
