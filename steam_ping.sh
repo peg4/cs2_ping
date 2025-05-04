@@ -148,7 +148,7 @@ run_traceroute() {
     local sep_geo=$(printf '─%.0s' $(seq 1 "$max_geo_len"))
 
     printf "\n┌────┬-%s-┬-%s-┬──────────┬──────────┬──────────┬-%s-┐\n" "$sep_dns" "$sep_ip" "$sep_geo"
-    printf "│ %-2s │ %-*s │ %-*s │ %-8s │ %-8s │ %-8s │ %-*s │\n" "Хоп" "$max_dns_len" "DNS" "$max_ip_len" "IP" "Пинг #1" "Пинг #2" "Пинг #3" "$max_geo_len" "Геолокация"
+    printf "│ %-3s│ %-*s │ %-*s │ %-8s │ %-8s │ %-8s │ %-*s │\n" "Хоп" "$max_dns_len" "DNS" "$max_ip_len" "IP" "Пинг #1" "Пинг #2" "Пинг #3" "$max_geo_len" "Геолокация"
     printf "├────┼-%s-┼-%s-┼──────────┼──────────┼──────────┼-%s-┤\n" "$sep_dns" "$sep_ip" "$sep_geo"
 
     for i in "${!lines[@]}"; do
@@ -163,7 +163,7 @@ run_traceroute() {
         cp2=$(colorize_ping "${rtts[1]:--}")
         cp3=$(colorize_ping "${rtts[2]:--}")
 
-        printf "│ %-2s │ %-*s │ %-*s │ %-8b │ %-8b │ %-8b │ %-*s │\n" "$hop_num" "$max_dns_len" "$dns" "$max_ip_len" "$ip" "$cp1" "$cp2" "$cp3" "$max_geo_len" "$geo"
+        printf "│ %-3s│ %-*s │ %-*s │ %-8b │ %-8b │ %-8b │ %-*s │\n" "$hop_num" "$max_dns_len" "$dns" "$max_ip_len" "$ip" "$cp1" "$cp2" "$cp3" "$max_geo_len" "$geo"
     done
 
     printf "└────┴-%s-┴-%s-┴──────────┴──────────┴──────────┴-%s-┘\n\n" "$sep_dns" "$sep_ip" "$sep_geo"
