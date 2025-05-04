@@ -1,6 +1,6 @@
 ## 🇬🇧 English Version
 
-This script helps quickly test latency and traceroutes to various **Steam servers** in **European cities**. It's ideal for gamers, network engineers, and anyone wanting to measure connection quality to the Steam infrastructure.
+This script helps quickly test latency and traceroutes to various **Steam servers** in **European cities**.
 
 ---
 
